@@ -4,9 +4,9 @@ import os
 from io import BytesIO
 
 
-st.set_page_config(page_title="Index", layout="wide")
-st.title("Index")
-st.write("This is the index page")
+st.set_page_config(page_title="Data Sweeper", layout="wide")
+st.title("Data Sweeper")
+st.write("Transform your files between CSV and Excel fromats with built-in data cleaning and visualizaiton!")
 
 uploaded_file = st.file_uploader("Upload your files (CSV , Excel):", type=["csv","xlsx"], accept_multiple_files=True)
 
